@@ -11,6 +11,12 @@
   --grey-light: #666666;
 }
 
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
 .card {
   width: 15rem;
   height: auto;
