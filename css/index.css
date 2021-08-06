@@ -4,11 +4,18 @@
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
+  --accent: #4ed17b;
+  --white-dark: #e2e2e2;
+  --white-light: #FFFFFF;
+  --grey-dark: #333333;
+  --grey-light: #666666;
 }
 
 .card {
   width: 15rem;
   height: auto;
+  background: var(--white-light);
+  border: solid 1px var(--white-dark);
 }
 
 .card__image {
@@ -28,10 +35,12 @@
   font-weight: bold;
   padding: 0;
   margin: 0;
+  color: var(--grey-dark);
 }
 
 .card__text {
   font-size: 0.75rem;
+  color: var(--grey-dark);
 }
 
 .card__price {
@@ -39,9 +48,15 @@
   font-weight: bold;
   padding: 0;
   margin: 0;
+  color: var(--grey-dark);
 }
 
 .btn--cart {
   height: 2rem;
   width: 2.5rem;
+  cursor: pointer;
+  background: var(--accent);
+  color: var(--white-light);
+  border: solid 1px var(--white-dark);
+  border-radius: 5px;
 }
