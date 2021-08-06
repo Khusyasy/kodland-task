@@ -5,17 +5,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.card-container {
+.card {
   width: 15rem;
   height: auto;
 }
 
-.card-image {
+.card__image {
   width: 15rem;
   height: 10.25rem;
-}
-
-.card-image img {
-  width: 100%;
-  height: 100%;
 }
